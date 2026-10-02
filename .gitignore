@@ -1,0 +1,38 @@
+# Environment files
+.env
+
+# Database
+usage.db
+
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Lock files (poetry)
+poetry.lock
+
+# Dependencies (node)
+node_modules/
+
+# Project specific
+dist/
+build/
+.DS_Store
+
+# Other common ignores
+.idea/
+.vscode/
+*.log
+test_knowledge_local.py
+test_knowledge.py
+uv.lock
+
+.agents/
+portfolio_content.md
+architecture.md
